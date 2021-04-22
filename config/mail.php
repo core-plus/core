@@ -20,7 +20,7 @@ return [
     | Mailer Configurations
     |--------------------------------------------------------------------------
     |
-    | Here you may configure all of the mailers used by your application plus
+    | Here you may configure all of the mailers used by your application packages
     | their respective settings. Several examples have been configured for
     | you and you are free to add your own as your application requires.
     |

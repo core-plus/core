@@ -7,6 +7,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "core-plus/news": "dev-master",
+        "tymon/jwt-auth": "^1.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
@@ -24,7 +25,6 @@
     "autoload": {
         "psr-4": {
             "Core\\": "app/",
-            "Plus\\": "packages/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
@@ -49,6 +49,10 @@
     "extra": {
         "laravel": {
             "dont-discover": []
+        },
+        "installer-types": ["core-plus"],
+        "installer-paths": {
+            "packages/{$name}": ["type:core-plus"]
         }
     },
     "config": {
