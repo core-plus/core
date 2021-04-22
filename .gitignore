@@ -10,6 +10,7 @@ composer.lock
 /public/storage
 /storage/*.key
 /vendor
+/packages
 .env
 .env.backup
 .phpunit.result.cache
