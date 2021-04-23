@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\API2\Requests;
+namespace Core\Api\Requests;
 
 class ListAllComments extends Request
 {

@@ -5,7 +5,7 @@ namespace Core\API2\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Illuminate\Http\JsonResponse;
-use Core\API2\Resources\UserCountsResource;
+use Core\Api\Resources\UserCountsResource;
 use Core\Models\UserCount as UserCountModel;
 
 class UserCountsController extends Controller
